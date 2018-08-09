@@ -5,24 +5,14 @@ body {
     margin-right: 0%;
 }
 
-.intro {
-    margin-left: 8%;
-    margin-top: 5px;
-    margin-bottom: 10%;
-}
-
-.intro-text {
-    margin-top: 5%;
-    margin-right: 8%;
-    letter-spacing: 0.6px;
-    line-height: 26px;
-}
-
-
 .header {
-    height: 120px;
-    margin: 0;
-    background-color: #fff;
+    background: rgba(255, 255, 255, 0.95);
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
 }
 
 .header-text {
@@ -31,8 +21,65 @@ body {
     margin-left: 8%;
     font-size: 20px;
     letter-spacing: 3px;
-    padding-top: 55px;
     color: rgb(59, 59, 59);
+}
+
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-left: 8%;
+    padding-bottom: 2000px;
+    background: rgba(255, 255, 255, 0.95);
+
+    width: 100%;
+    margin-right: 0;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.nav-menu ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: block;
+    font-size: 15px;
+    margin-left: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+.nav-toggle {
+    display: inherit;
+}
+
+.nav-toggle:checked ~ .nav-menu {
+    display: block;
+}
+
+.intro {
+    margin-left: 8%;
+    margin-top: 5px;
+    margin-bottom: 10%;
+}
+
+.intro-margin {
+    margin-top: 125px;
+}
+
+.intro-text {
+    margin-top: 10px;
+    margin-right: 8%;
+    letter-spacing: 0.6px;
+    line-height: 26px;
 }
 
 .content-container-wide {
