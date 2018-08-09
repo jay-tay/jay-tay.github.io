@@ -1,4 +1,17 @@
 
+.content-container-wide {
+    display: block;
+    height: 300px;
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://i.imgur.com/zYNV53q.jpg') no-repeat center;
+    background-position: 60% 42%;
+    background-attachment: inherit;
+}
+
 .content-container-1 {
     display: inline-block;
     height: 300px;
