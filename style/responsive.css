@@ -1,4 +1,32 @@
 
+body {
+    background-color: #fff;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.nav-menu {
+    display: inline-block;
+    width: 42%;
+    margin-right: 8%;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
 .content-container-wide {
     display: block;
     height: 300px;
@@ -7,8 +35,8 @@
     margin-bottom: 5%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('https://i.imgur.com/zYNV53q.jpg') no-repeat center;
-    background-position: 60% 42%;
+    background:url('https://cdn.dribbble.com/users/1240533/screenshots/4907688/attachments/1102644/copper_photo_industry_01b.jpg') no-repeat center;
+    background-position: 70% 42%;
     background-attachment: inherit;
 }
 
@@ -40,7 +68,7 @@
 .content-container-3 {
     display: inline-block;
     height: 300px;
-    width: 40.5%;
+    width: 84%;
     margin-left: 8%;
     margin-bottom: 100px;
     background-color: rgb(235, 222, 219);
@@ -51,7 +79,18 @@
 .content-text {
     position: absolute;
     margin-top: 305px;
-    width: 35%;
+    width: 42%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.text-wide {
+    position: absolute;
+    margin-top: 305px;
+    width: 84%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
