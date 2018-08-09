@@ -144,3 +144,21 @@ body {
 .intro-text a:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 768px) {
+    .body { 
+        margin: 0px auto; 
+        width:98%; 
+        height:400px; 
+        background-color: #B3D9FF; 
+        padding:1%; 
+    }
+    
+    .intro-text { 
+        font-size: 100px; 
+    }
+    
+    #p { 
+        font-size:0.7em; 
+    }
+}
