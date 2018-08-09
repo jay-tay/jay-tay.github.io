@@ -27,6 +27,10 @@ body {
     text-transform: uppercase;
 }
 
+.nav-toggle {
+    display: none;
+}
+
 .content-container-wide {
     display: block;
     height: 300px;
@@ -89,7 +93,7 @@ body {
 
 .text-wide {
     position: absolute;
-    margin-top: 310px;
+    margin-top: 305px;
     width: 84%;
     text-align: center;
     font-family: sans-serif;
