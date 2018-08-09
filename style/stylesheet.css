@@ -129,3 +129,18 @@ body {
     font-size: 14px;
     letter-spacing: 0.6px;
 }
+
+.intro {
+    margin-left: 8%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.intro-text a:hover {
+    opacity: 0.7;
+}
