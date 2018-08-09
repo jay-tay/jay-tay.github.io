@@ -56,6 +56,10 @@ body {
     opacity: 0.6;
 }
 
+.nav-toggle {
+    display: none;
+}
+
 .content-container-wide {
     display: block;
     height: 300px;
