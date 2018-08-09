@@ -1,4 +1,10 @@
 
+body {
+    background-color: #fff;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
 .intro {
     margin-left: 8%;
     margin-top: 5px;
@@ -7,6 +13,7 @@
 
 .intro-text {
     margin-top: 5%;
+    margin-right: 8%;
     letter-spacing: 0.6px;
     line-height: 26px;
 }
@@ -36,8 +43,8 @@
     margin-bottom: 10%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('https://i.imgur.com/zYNV53q.jpg') no-repeat center;
-    background-position: 60% 42%;
+    background:url('https://cdn.dribbble.com/users/1240533/screenshots/4907688/attachments/1102644/copper_photo_industry_01b.jpg') no-repeat center;
+    background-position: 65% 42%;
     background-attachment: inherit;
 }
 
@@ -47,6 +54,7 @@
     width: 84%;
     margin-left: 8%;
     margin-bottom: 40px;
+    margin-right: 8%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
     background:url('https://cdn.dribbble.com/users/1401165/screenshots/4844063/cover.gif') no-repeat;
@@ -60,6 +68,7 @@
     width: 84%;
     margin-left: 8%;
     margin-bottom: 40px;
+    margin-right: 8%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
     background:url('https://cdn.dribbble.com/users/1201838/screenshots/4929480/artboard_2_copy_8_1x.png') no-repeat center;
@@ -72,6 +81,7 @@
     width: 84%;
     margin-left: 8%;
     margin-bottom: 100px;
+    margin-right: 8%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
     background:url('https://cdn.dribbble.com/users/25514/screenshots/4757094/iterable_brand_assets_branding_styleguide_guideline.png') no-repeat;
@@ -80,7 +90,7 @@
 .content-text {
     position: absolute;
     margin-top: 305px;
-    width: 70%;
+    width: 84%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
