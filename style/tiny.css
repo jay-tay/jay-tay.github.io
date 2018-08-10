@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 1);
     height: 130px;
     width: 100%;
     position: fixed;
@@ -30,7 +30,7 @@ body {
     left: 0;
     margin-left: 8%;
     padding-bottom: 1334px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 1);
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 200ms ease-in-out;
