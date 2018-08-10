@@ -35,6 +35,10 @@ body {
     display: none;
 }
 
+.nav-toggle-label {
+    display: none;
+}
+
 .content-container-wide {
     display: block;
     height: 300px;
