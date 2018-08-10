@@ -88,6 +88,14 @@ body {
     width: 45%;
 }
 
+.nav-toggle-label span img:hover {
+    opacity: 0.7;
+}
+
+.nav-toggle-label span img:active {
+    opacity: 0.3;
+}
+
 .intro {
     margin-left: 8%;
     margin-top: 5px;
