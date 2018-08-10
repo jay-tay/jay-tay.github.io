@@ -30,6 +30,10 @@ body {
     color: rgb(59, 59, 59);
 }
 
+.nav-toggle-label {
+    display: none;
+}
+
 .nav-menu {
     display: inline-block;
     width: 42%;
