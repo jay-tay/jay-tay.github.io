@@ -60,6 +60,11 @@ body {
     opacity: 0.6;
 }
 
+.nav-menu li a:active {
+    opacity: 0.3;
+    color: #3296d8;
+}
+
 .nav-toggle {
     display: none;
 }
