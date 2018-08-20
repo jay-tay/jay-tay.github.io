@@ -5,7 +5,7 @@
 
 * a {
     text-decoration: none;
-    color: rgb(59, 59, 59);
+    color: #4D4D4D;
 }
 
 body {
@@ -149,6 +149,7 @@ body {
 
 .intro {
     margin-left: 8%;
+    margin-right: 8%;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -159,6 +160,16 @@ body {
 }
 
 .intro-text a:hover {
+    opacity: 0.7;
+}
+
+.intro-text a {
+    color: #3296d8;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.intro-text a:active {
     opacity: 0.7;
 }
 
