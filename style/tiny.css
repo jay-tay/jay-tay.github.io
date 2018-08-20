@@ -146,7 +146,7 @@ body {
 .intro {
     margin-left: 8%;
     margin-top: 5px;
-    margin-bottom: 10%;
+    margin-bottom: 40px;
 }
 
 .intro-margin {
@@ -164,7 +164,7 @@ body {
     height: 300px;
     width: 84%;
     margin-left: 8%;
-    margin-bottom: 10%;
+    margin-bottom: 25px;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
     background:url('https://cdn.dribbble.com/users/1240533/screenshots/4907688/attachments/1102644/copper_photo_industry_01b.jpg') no-repeat center;
