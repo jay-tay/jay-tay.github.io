@@ -153,6 +153,10 @@ body {
     margin-top: 125px;
 }
 
+.intro-margin-about {
+    margin-top: 25px;
+}
+
 .intro-text {
     margin-top: 10px;
     letter-spacing: 0.6px;
@@ -222,12 +226,40 @@ body {
     letter-spacing: 0.6px;
 }
 
-.intro-text a {
+.about-text {
+    width: 100%;
+    line-height: 26px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.about-text:last-child {
+    width: 100%;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    margin-bottom: 180px;
+    text-align: left;
+}
+
+.about-text a {
     color: #3296d8;
     letter-spacing: 0.6px;
     line-height: 26px;
 }
 
-.intro-text a:active {
+.about-text a:active {
     opacity: 0.7;
+}
+
+.profile-picture {
+    display: none;
+}
+
+.profile-picture-mobile {
+    display: block;
+    margin-top: 135px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 40px;
+    width: 84%;
 }
