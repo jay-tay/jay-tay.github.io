@@ -1,0 +1,265 @@
+
+body {
+    background-color: #fff;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.header {
+    background: rgba(255, 255, 255, 1);
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.header-text {
+    display: inline-block;
+    width: 50%;
+    margin-left: 8%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(59, 59, 59);
+}
+
+.nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-left: 8%;
+    padding-bottom: 1334px;
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 200ms ease-in-out;
+
+    width: 100%;
+    margin-right: 0;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.nav-menu ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: block;
+    font-size: 18px;
+    margin-left: 0;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 50ms ease-in-out;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle:checked ~ .nav-menu {
+    transform: scale(1, 1);
+    transition: transform 200ms ease-in-out;
+}
+
+.nav-toggle:checked ~ .nav-menu li {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+.nav-toggle-label-close {
+    display: none;
+}
+
+.nav-toggle:checked ~ .toggle-container-2 .nav-toggle-label-close {
+    display: block;
+}
+
+.nav-toggle:checked ~ .toggle-container .nav-toggle-label {
+    display: none;
+}
+
+.toggle-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: 4px;
+    margin-right: 8%;
+}
+
+.toggle-container-2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: 4px;
+}
+
+.nav-toggle-label {
+    display: block;
+}
+
+.nav-toggle-label span {
+    display: block;
+    margin-right: -26px;
+}
+
+.nav-toggle-label-close span {
+    display: block;
+    margin-right: -20px;
+}
+
+.nav-toggle-label span img {
+    height: 45%;
+    width: 45%;
+}
+
+.nav-toggle-label-close span img {
+    height: 42%;
+    width: 42%;
+}
+
+.nav-toggle-label span img:hover {
+    opacity: 0.7;
+}
+
+.nav-toggle-label span img:active {
+    opacity: 0.3;
+}
+
+.nav-toggle-label-close span:hover {
+    opacity: 0.7;
+}
+
+.nav-toggle-label-close span:active {
+    opacity: 0.3;
+}
+
+.intro {
+    margin-left: 8%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.intro-margin {
+    margin-top: 125px;
+}
+
+.intro-margin-about {
+    margin-top: 25px;
+}
+
+.intro-text {
+    margin-top: 10px;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.content-container-wide {
+    display: block;
+    height: 300px;
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 25px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://cdn.dribbble.com/users/1240533/screenshots/4907688/attachments/1102644/copper_photo_industry_01b.jpg') no-repeat center;
+    background-position: 65% 42%;
+    background-attachment: inherit;
+}
+
+.content-container-1 {
+    display: inline-block;
+    height: 300px;
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 40px;
+    margin-right: 8%;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://cdn.dribbble.com/users/1401165/screenshots/4844063/cover.gif') no-repeat;
+    background-position: 50% 30;
+    background-attachment: inherit;
+}
+
+.content-container-2 {
+    display: inline-block;
+    height: 300px;
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 40px;
+    margin-right: 8%;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://cdn.dribbble.com/users/1201838/screenshots/4929480/artboard_2_copy_8_1x.png') no-repeat center;
+    background-attachment: inherit;
+}
+
+.content-container-3 {
+    display: inline-block;
+    height: 300px;
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 100px;
+    margin-right: 8%;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://cdn.dribbble.com/users/25514/screenshots/4757094/iterable_brand_assets_branding_styleguide_guideline.png') no-repeat;
+}
+
+.content-text {
+    position: absolute;
+    margin-top: 310px;
+    width: 84%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.about-text {
+    width: 100%;
+    line-height: 26px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.about-text:last-child {
+    width: 100%;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    margin-bottom: 180px;
+    text-align: left;
+}
+
+.about-text a {
+    color: #3296d8;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.about-text a:active {
+    opacity: 0.7;
+}
+
+.profile-picture {
+    display: none;
+}
+
+.profile-picture-mobile {
+    display: block;
+    margin-top: 135px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 40px;
+    width: 84%;
+}
