@@ -10,20 +10,29 @@
 
 body {
     background-color: #fff;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .header {
     height: 120px;
-    margin: 0;
+    margin: auto;
+    margin-left: 8%;
+    margin-right: 8%;
     background-color: #fff;
+}
+
+.header a:hover {
+    opacity: 0.7;
+}
+
+.header a:active {
+    opacity: 0.3;
 }
 
 .header-text {
     display: inline-block;
-    width: 42%;
-    margin-left: 8%;
+    width: 40%;
     font-size: 26px;
     letter-spacing: 3px;
     padding-top: 55px;
@@ -40,8 +49,7 @@ body {
 
 .nav-menu {
     display: inline-block;
-    width: 42%;
-    margin-right: 8%;
+    width: 60%;
     font-family: sans-serif;
     font-weight: 200;
     font-size: 14px;
@@ -66,7 +74,6 @@ body {
 
 .nav-menu li a:active {
     opacity: 0.3;
-    color: #3296d8;
 }
 
 .nav-toggle {
@@ -139,7 +146,7 @@ body {
 .content-text {
     position: absolute;
     margin-top: 310px;
-    width: 23.333333%;
+    width: 15.6666666%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
@@ -150,12 +157,14 @@ body {
 .profile-picture {
     float: right;
     margin-left: 5%;
-    height: 35%;
-    width: 35%;
+    height: 170px;
+    width: 170px;
+    border-radius: 5px;
 }
 
 .profile-picture-mobile {
     display: none;
+    border-radius: 5px;
 }
 
 .intro {

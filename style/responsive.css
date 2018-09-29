@@ -1,14 +1,21 @@
 
 body {
     background-color: #fff;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header {
+
+}
+
+.header-text {
+    width: 40%;
 }
 
 .nav-menu {
     display: inline-block;
-    width: 42%;
-    margin-right: 8%;
+    width: 60%;
     font-family: sans-serif;
     font-weight: 200;
     font-size: 14px;
@@ -91,7 +98,7 @@ body {
 .content-text {
     position: absolute;
     margin-top: 310px;
-    width: 42%;
+    width: 28.37%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
@@ -102,10 +109,26 @@ body {
 .text-wide {
     position: absolute;
     margin-top: 305px;
-    width: 84%;
+    width: 58.75%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
     font-size: 14px;
     letter-spacing: 0.6px;
+}
+
+.about-text {
+    letter-spacing: 0px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    width: 60%;
+}
+
+.profile-picture {
+    float: right;
+    margin-left: 5%;
+    height: 35%;
+    width: 35%;
+    border-radius: 5px;
 }
