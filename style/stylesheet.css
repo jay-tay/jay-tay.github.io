@@ -219,6 +219,10 @@ body {
     opacity: 0.7;
 }
 
+.cv-mobile {
+    display: none;
+}
+
 .cv {
     margin-top: 100px;
     margin-left: 8%;
@@ -273,6 +277,10 @@ strong {
     display: inline-block;
     height: 15px;
     width: 100%;
+}
+
+.cv-mobile {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {

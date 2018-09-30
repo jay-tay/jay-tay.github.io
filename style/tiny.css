@@ -156,7 +156,7 @@ body {
 }
 
 .intro-margin-about {
-    margin-top: 25px;
+    margin-top: 125px;
 }
 
 .intro-text {
@@ -239,7 +239,6 @@ body {
     width: 100%;
     letter-spacing: 0.6px;
     line-height: 26px;
-    margin-bottom: 180px;
     text-align: left;
 }
 
@@ -259,16 +258,85 @@ body {
 
 .profile-picture-mobile {
     display: block;
-    margin-top: 135px;
     margin-left: 8%;
     margin-right: 8%;
     margin-bottom: 40px;
     width: 84%;
 }
 
-.education-date {
-    display: inline-block;
-    width: 25%;
+.cv {
+    display: none;
+}
+
+.cv-mobile {
+    display: block;
+    margin-top: 45px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.cv-heading-m {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #d9d9d9;
+    margin-bottom: 15px;
+}
+
+.education-date-m {
+    display: block;
+    width: 30%;
     font-weight: 400;
     float: left;
+    margin-bottom: 10px;
+}
+
+.education-title-m {
+    display: block;
+    text-align: left;
+    float: right;
+    width: 100%;
+    font-weight: 400;
+}
+
+.education-subtitle-m {
+    display: block;
+    float: right;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.education-text-m {
+    display: block;
+    font-size: 0.9em;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cv-division-m {
+    display: inline-block;
+    height: 5px;
+    width: 100%;
+}
+
+.cv-division2-m {
+    display: inline-block;
+    border-bottom: solid 1px #d9d9d9;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+.cv-division3-m {
+    display: inline-block;
+    border-bottom: solid 1px #ffffff;
+    opacity: 0;
+    width: 70%;
+}
+
+strong {
+    font-weight: 400;
 }
