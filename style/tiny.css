@@ -265,3 +265,10 @@ body {
     margin-bottom: 40px;
     width: 84%;
 }
+
+.education-date {
+    display: inline-block;
+    width: 25%;
+    font-weight: 400;
+    float: left;
+}

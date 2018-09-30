@@ -1,5 +1,8 @@
+@import 'http://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900';
+
 * {
     font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     margin: 0px;
 }
 
@@ -34,6 +37,7 @@ body {
     display: inline-block;
     width: 40%;
     font-size: 26px;
+    font-weight: 300;
     letter-spacing: 3px;
     padding-top: 55px;
     color: rgb(59, 59, 59);
@@ -51,7 +55,7 @@ body {
     display: inline-block;
     width: 60%;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 14px;
     letter-spacing: 0.6px;
 }
@@ -149,7 +153,7 @@ body {
     width: 15.6666666%;
     text-align: center;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 14px;
     letter-spacing: 0.6px;
 }
@@ -177,6 +181,7 @@ body {
 .intro-text {
     letter-spacing: 0px;
     line-height: 26px;
+    font-weight: 300;
 }
 
 .intro-text a:hover {
@@ -212,6 +217,62 @@ body {
 
 .about-text a:active {
     opacity: 0.7;
+}
+
+.cv {
+    margin-top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.cv-heading {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #d9d9d9;
+    margin-bottom: 15px;
+}
+
+.education-date {
+    display: inline-block;
+    width: 15%;
+    font-weight: 400;
+    float: left;
+}
+
+.education-title {
+    display: inline-block;
+    text-align: left;
+    float: right;
+    width: 75%;
+    font-weight: 400;
+}
+
+.education-subtitle {
+    display: inline-block;
+    float: right;
+    text-align: left;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.education-text {
+    float: right;
+    text-align: left;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.cv-division {
+    display: inline-block;
+    height: 15px;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
