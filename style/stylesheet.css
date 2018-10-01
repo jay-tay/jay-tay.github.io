@@ -265,7 +265,7 @@ body {
     display: inline-block;
     width: 15%;
     font-weight: bold;
-    font-weight: bolder;
+    font-weight: 400;
     float: left;
 }
 
@@ -275,7 +275,7 @@ body {
     float: right;
     width: 75%;
     font-weight: bold;
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .education-subtitle {
@@ -304,11 +304,9 @@ body {
 }
 
 strong {
-    font-family:"Work Sans Bold", "Work Sans-Bold", "WorkSans-Bold", "WorkSans Bold";
     font-weight: bold;
     font-weight: bolder;
-    font-weight: 500;
-    color: red;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
