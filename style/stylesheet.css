@@ -263,7 +263,8 @@ body {
 .education-date {
     display: inline-block;
     width: 15%;
-    font-weight: 400;
+    font-weight: bold;
+    font-weight: bolder;
     float: left;
 }
 
@@ -272,7 +273,8 @@ body {
     text-align: left;
     float: right;
     width: 75%;
-    font-weight: 400;
+    font-weight: bold;
+    font-weight: bolder;
 }
 
 .education-subtitle {
@@ -301,7 +303,9 @@ body {
 }
 
 strong {
-    font-weight: 400;
+    font-weight: bold;
+    font-weight: bolder;
+    color: red;
 }
 
 @media screen and (max-width: 768px) {
