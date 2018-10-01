@@ -340,7 +340,9 @@ body {
 }
 
 strong {
+    font-family:"Work Sans Bold", "Work Sans-Bold", "WorkSans-Bold", "WorkSans Bold";
     font-weight: bold;
     font-weight: bolder;
+    font-weight: 500;
     color: red;
 }
