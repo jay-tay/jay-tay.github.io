@@ -316,7 +316,15 @@ body {
     font-size: 0.9em;
     text-align: left;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.education-text-m0 {
+    display: block;
+    font-size: 0.9em;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 8px;
 }
 
 .cv-division-m {
