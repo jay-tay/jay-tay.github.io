@@ -290,10 +290,6 @@ body {
     margin-bottom: 10px;
 }
 
-strong {
-    font-weight: 400;
-}
-
 .cv-division {
     display: inline-block;
     height: 15px;
@@ -302,6 +298,10 @@ strong {
 
 .cv-mobile {
     display: none;
+}
+
+strong {
+    font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
