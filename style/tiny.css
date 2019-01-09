@@ -5,6 +5,10 @@ body {
     margin-right: 0%;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 .header {
     background: rgba(255, 255, 255, 1);
     height: 130px;

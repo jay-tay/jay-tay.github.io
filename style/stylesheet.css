@@ -39,6 +39,10 @@ body {
     margin-right: 20%;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 .header {
     height: 120px;
     margin: auto;

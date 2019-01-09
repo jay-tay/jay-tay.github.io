@@ -5,6 +5,10 @@ body {
     margin-right: 15%;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 .header {
 
 }
