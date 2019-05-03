@@ -152,7 +152,9 @@ html {
     margin-right: 3%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('https://cdn.dribbble.com/users/1201838/screenshots/4929480/artboard_2_copy_8_1x.png') no-repeat center;
+    background:url('https://i.imgur.com/8p48XiA.png') no-repeat center;
+    background-size: 125%;
+    background-position: 30% 85%;
     background-attachment: inherit;
 }
 
