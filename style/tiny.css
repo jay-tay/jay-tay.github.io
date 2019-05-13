@@ -408,7 +408,7 @@ strong {
     margin-bottom: 30%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('file:///Users/josht/Desktop/jay-tay.github.io-master/images/mygp.png') no-repeat;
+    background:url('https://imgur.com/C1zjByo.png') no-repeat;
     background-size: 100%;
 }
 
@@ -424,7 +424,7 @@ strong {
     color: #fff;
     background-color: rgb(12, 91, 209);
     border: none;
-    border-radius: 3px;
+    border-radius: 3spx;
 }
 
 #prototype-button:active {
