@@ -408,8 +408,31 @@ strong {
     margin-bottom: 30%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('https://imgur.com/XSvvNNW.png') no-repeat;
+    background:url('file:///Users/josht/Desktop/jay-tay.github.io-master/images/mygp.png') no-repeat;
     background-size: 100%;
+}
+
+#prototype-button {
+    display: block;
+    height: 40px;
+    width: 140px;
+    margin: 0 auto;
+    position: absolute;
+    top: 184%;
+    left: 31.5%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(12, 91, 209);
+    border: none;
+    border-radius: 3px;
+}
+
+#prototype-button:active {
+    background-color: rgb(0, 56, 141);
+}
+
+#prototype-button:focus {
+    outline: none;
 }
 
 #healthcare-embed {
