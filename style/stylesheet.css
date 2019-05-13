@@ -362,17 +362,8 @@ strong {
     -webkit-transform-origin: 0 0;
 }
 
-.image-mobile {
-    display: block;
-    height: 534px;
-    width: 300px;
-    background:red;
-    size: 30%;
-    border-radius: 5px;
-    -webkit-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.20);
-    -moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.20);
-    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.20);
-    float: right;
+#prototype-link {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {

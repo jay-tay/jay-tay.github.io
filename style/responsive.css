@@ -172,6 +172,10 @@ html {
     float: right;
 }
 
+#prototype-link {
+    display: none;
+}
+
 #healthcare-embed {
     width: 161.29%;
     height: 161.29%;

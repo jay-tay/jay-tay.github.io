@@ -394,13 +394,26 @@ strong {
 }
 
 .project-right {
-    height: 700px;
+    height: 720px;
     width: 100%;
     float: right;
     margin-bottom: 100px;
 }
 
+#prototype-link {
+    display: block;
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://imgur.com/09cF9Hc.png') no-repeat;
+    background-size: 100%;
+}
+
 #healthcare-embed {
+    display: none;
     width: 138.88%;
     height: 138.88%;
     -ms-zoom: 0.72;
