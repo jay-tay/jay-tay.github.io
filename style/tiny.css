@@ -379,7 +379,7 @@ strong {
 }
 
 .project-left {
-    height: 550px;
+    height: 700px;
     width: 100%;
     float: left;
     margin-right: 10px;
@@ -394,20 +394,20 @@ strong {
 }
 
 .project-right {
-    height: 900px;
+    height: 700px;
     width: 100%;
     float: right;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 #healthcare-embed {
-    width: 100%;
-    height: 100%;
-    -ms-zoom: 1.0;
-    -moz-transform: scale(1.0);
+    width: 138.88%;
+    height: 138.88%;
+    -ms-zoom: 0.72;
+    -moz-transform: scale(0.72);
     -moz-transform-origin: 0 0;
-    -o-transform: scale(1.0);
+    -o-transform: scale(0.72);
     -o-transform-origin: 0 0;
-    -webkit-transform: scale(1.0);
+    -webkit-transform: scale(0.72);
     -webkit-transform-origin: 0 0;
 }
