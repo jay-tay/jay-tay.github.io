@@ -441,6 +441,10 @@ strong {
     outline: none;
 }
 
+#iframe-container {
+    display: none;
+}
+
 #healthcare-embed {
     display: none;
     width: 138.88%;
