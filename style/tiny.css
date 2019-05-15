@@ -4,6 +4,7 @@ body {
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0px;
+    overflow: hidden;
 }
 
 html {
@@ -172,6 +173,7 @@ html {
 
 .content-container-wide {
     display: block;
+    position: relative;
     height: 300px;
     width: 84%;
     margin-left: 8%;
@@ -185,6 +187,7 @@ html {
 
 .content-container-1 {
     display: inline-block;
+    position: relative;
     height: 300px;
     width: 84%;
     margin-left: 8%;
@@ -199,6 +202,7 @@ html {
 
 .content-container-2 {
     display: inline-block;
+    position: relative;
     height: 300px;
     width: 84%;
     margin-left: 8%;
@@ -212,6 +216,7 @@ html {
 
 .content-container-3 {
     display: inline-block;
+    position: relative;
     height: 300px;
     width: 84%;
     margin-left: 8%;
@@ -225,7 +230,7 @@ html {
 .content-text {
     position: absolute;
     margin-top: 310px;
-    width: 84%;
+    width: 100%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
@@ -368,7 +373,7 @@ strong {
 .project-body {
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 140px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 
@@ -376,10 +381,20 @@ strong {
     font-size: 22px;
     font-weight: 300;
     color: #000;
+    margin-left: 8%;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+
+.primary-image {
+    height: 100%;
+    width: 120%;
+    margin-bottom: 0px;
 }
 
 .project-left {
-    height: 700px;
+    display: block;
+    height: 100%;
     width: 100%;
     float: left;
     margin-right: 10px;
@@ -389,11 +404,12 @@ strong {
 .project-text {
     letter-spacing: 0px;
     line-height: 22px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 18px;
 }
 
 .project-right {
+    display: block;
     height: 720px;
     width: 100%;
     float: right;
@@ -404,7 +420,7 @@ strong {
     display: block;
     width: 300px;
     height: 613px;
-    margin-top: 30%;
+    margin-top: 5%;
     margin-bottom: 30%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
@@ -421,8 +437,8 @@ strong {
 
 #prototype-button {
     display: block;
-    height: 40px;
-    width: 140px;
+    height: 50px;
+    width: 160px;
     position: absolute;
     top: 45%;
     right: 80px;
@@ -431,6 +447,7 @@ strong {
     background-color: rgb(12, 91, 209);
     border: none;
     border-radius: 3px;
+    font-size: 16px;
 }
 
 #prototype-button:active {

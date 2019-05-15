@@ -66,6 +66,7 @@ html {
 
 .content-container-1 {
     display: inline-block;
+    position: relative;
     height: 300px;
     width: 40.5%;
     margin-left: 8%;
@@ -80,6 +81,7 @@ html {
 
 .content-container-2 {
     display: inline-block;
+    position: relative;
     height: 300px;
     width: 40.5%;
     margin-bottom: 35px;
@@ -91,6 +93,7 @@ html {
 
 .content-container-3 {
     display: inline-block;
+    position: relative;
     height: 300px;
     width: 84%;
     margin-left: 8%;
@@ -103,7 +106,7 @@ html {
 .content-text {
     position: absolute;
     margin-top: 310px;
-    width: 28.37%;
+    width: 100%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
@@ -114,7 +117,7 @@ html {
 .text-wide {
     position: absolute;
     margin-top: 305px;
-    width: 58.75%;
+    width: 100%;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
