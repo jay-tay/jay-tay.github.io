@@ -229,18 +229,18 @@ html {
     font-weight: 300;
 }
 
-.intro-text a:hover {
-    opacity: 0.7;
-}
-
 .intro-text a {
     color: #3296d8;
     letter-spacing: 0.6px;
     line-height: 26px;
 }
 
-.intro-text a:active {
+.intro-text a:hover {
     opacity: 0.7;
+}
+
+.intro-text a:active {
+    opacity: 0.4;
 }
 
 .about-text {
@@ -394,13 +394,6 @@ strong {
     color:rgba(0,0,0,0.7);
 }
 
-.project-left {
-    height: 800px;
-    width: 50%;
-    float: left;
-    margin-right: 10px;
-}
-
 .project-text {
     letter-spacing: 0px;
     line-height: 22px;
@@ -409,31 +402,16 @@ strong {
     color:rgba(0,0,0,0.7);
 }
 
-.project-right {
-    height: 650px;
-    width: 300px;
-    float: right;
+.project-text a {
+    color: #3296d8;
 }
 
-#iframe-container {
-    width: 100%;
-    height: 100%;
+.project-text a:hover {
+    opacity: 0.7;
 }
 
-#healthcare-embed {
-    width: 138.88%;
-    height: 138.88%;
-    -ms-zoom: 0.72;
-    -moz-transform: scale(0.72);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.72);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.72);
-    -webkit-transform-origin: 0 0;
-}
-
-#prototype-link {
-    display: none;
+.project-text a:active {
+    opacity: 0.4;
 }
 
 @media screen and (max-width: 768px) {

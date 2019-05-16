@@ -27,7 +27,7 @@ html {
     display: inline-block;
     width: 50%;
     margin-left: 8%;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 3px;
     color: rgb(59, 59, 59);
 }
@@ -391,8 +391,10 @@ strong {
 
 .primary-image {
     height: 100%;
-    width: 120%;
+    width: 100%;
+    margin-left: 0px;
     margin-bottom: 0px;
+    border-radius: 0px;
 }
 
 .intro-wide {
@@ -429,29 +431,11 @@ strong {
     color:rgba(0,0,0,0.7);
 }
 
-.project-left {
-    display: block;
-    height: 100%;
-    width: 100%;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    color:rgba(0,0,0,0.7);
-}
-
 .project-text {
     letter-spacing: 0px;
     line-height: 22px;
     margin-top: 0px;
     margin-bottom: 18px;
-}
-
-.project-right {
-    display: block;
-    height: 720px;
-    width: 100%;
-    float: right;
-    margin-bottom: 100px;
 }
 
 #prototype-link {
@@ -464,51 +448,4 @@ strong {
     border-radius: 5px;
     background:url('https://imgur.com/C1zjByo.png') no-repeat;
     background-size: 100%;
-}
-
-#button-container {
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-#prototype-button {
-    display: block;
-    height: 50px;
-    width: 160px;
-    position: absolute;
-    top: 45%;
-    right: 80px;
-    text-align: center;
-    color: #fff;
-    background-color: rgb(12, 91, 209);
-    border: none;
-    border-radius: 3px;
-    font-size: 16px;
-}
-
-#prototype-button:active {
-    background-color: rgb(0, 56, 141);
-}
-
-#prototype-button:focus {
-    outline: none;
-}
-
-#iframe-container {
-    display: none;
-}
-
-#healthcare-embed {
-    display: none;
-    width: 138.88%;
-    height: 138.88%;
-    -ms-zoom: 0.72;
-    -moz-transform: scale(0.72);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.72);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.72);
-    -webkit-transform-origin: 0 0;
 }
