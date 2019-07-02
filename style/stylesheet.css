@@ -182,7 +182,9 @@ html {
     width: 26%;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('https://cdn.dribbble.com/users/25514/screenshots/4757094/iterable_brand_assets_branding_styleguide_guideline.png') no-repeat;
+    background:url('https://i.imgur.com/wkALURe.png') no-repeat;
+    background-size: 330%;
+    background-position: 14% 14%;
 
     transition: all .2s ease-in-out;
 }
