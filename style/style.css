@@ -34,12 +34,9 @@ time, mark, audio, video {
     background-color: rgb(241, 241, 241);
 }
 
-html {
-    overflow-y: scroll;
-}
-
 body {
     background-color: rgb(241, 241, 241);
+    position: relative;
     overflow: hidden;
 }
 
@@ -48,8 +45,8 @@ body {
     margin: 0;
     top: 45%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, 45%);
+    transform: translate(-50%, 45%);
     width: 375px;
 }
 
