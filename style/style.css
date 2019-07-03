@@ -36,7 +36,7 @@ time, mark, audio, video {
 
 body {
     background-color: rgb(241, 241, 241);
-    position: relative;
+    position: fixed;
     overflow: hidden;
 }
 
@@ -45,8 +45,8 @@ body {
     margin: 0;
     top: 45%;
     left: 50%;
-    -ms-transform: translate(-50%, 40%);
-    transform: translate(-50%, 40%);
+    -ms-transform: translate(0%, 40%);
+    transform: translate(0%, 40%);
     width: 375px;
 }
 
@@ -56,6 +56,7 @@ body {
     text-align: center;
     line-height: 30px;
     font-size: 14px;
+    background-color: aquamarine;
 }
 
 #illustration-container {
