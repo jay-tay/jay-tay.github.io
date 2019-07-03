@@ -1,0 +1,76 @@
+@import 'http://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900';
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:300,400,bold';
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+
+* a {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+/** CSS Reset **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: rgb(241, 241, 241);
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+#notice {
+    position: absolute;
+    margin: 0;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#notice p {
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    line-height: 30px;
+}
+
+#illustration-container {
+    width: 100%;
+}
+
+#illustration {
+    display: block;
+    margin: auto;
+    height: 340px;
+    width: 340px;
+}
+
+#test {
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    body { 
+        background-color: white;
+    }
+}
