@@ -45,8 +45,8 @@ body {
     margin: 0;
     top: 45%;
     left: 50%;
-    -ms-transform: translate(-50%, 45%);
-    transform: translate(-50%, 45%);
+    -ms-transform: translate(-50%, 40%);
+    transform: translate(-50%, 40%);
     width: 375px;
 }
 
