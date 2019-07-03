@@ -34,8 +34,14 @@ time, mark, audio, video {
     background-color: rgb(241, 241, 241);
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-color: rgb(241, 241, 241);
+    position: fixed;
+    overflow: hidden;
 }
 
 #notice {
