@@ -179,7 +179,7 @@ html {
     margin-bottom: 40px;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('file:///Users/josh/Desktop/jay-tay.github.io-margin/images/main-mobile.png') no-repeat center;
+    background:url('https://raw.githubusercontent.com/jay-tay/jay-tay.github.io/master/images/main-mobile.png') no-repeat center;
 
     background-size: 165%;
     background-position: 50% 48%;
@@ -243,7 +243,7 @@ html {
     margin-bottom: 100px;
     background-color: rgb(235, 222, 219);
     border-radius: 5px;
-    background:url('file:///Users/josh/Desktop/jay-tay.github.io-margin/images/stagger-main.png') no-repeat center;
+    background:url('https://raw.githubusercontent.com/jay-tay/jay-tay.github.io/master/images/stagger-main.png') no-repeat center;
 
     background-size: 230%;
     background-position: 50% 48%;
