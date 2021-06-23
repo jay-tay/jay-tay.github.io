@@ -1,0 +1,274 @@
+
+body {
+    background-color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+/* .header {
+
+} */
+
+.header-text {
+    width: 40%;
+}
+
+.nav-menu {
+    display: inline-block;
+    width: 60%;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 4%;
+    text-transform: uppercase;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+.content-container-wide /* Energy App */ {
+    display: block;
+    height: 450px;
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 32px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('file:///Users/josh/Desktop/jay-tay.github.io-margin/images/main-mobile.png') no-repeat center;
+    
+    background-size: 120%;
+    background-position: 50% 48%;
+    background-attachment: inherit;
+    
+}
+
+.content-container-1 /* Pulse */ {
+    display: inline-block;
+    position: relative;
+    height: 450px;
+    width: 84%;
+    margin-top: 0px;
+    margin-left: 8%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://imgur.com/QrURPmI.png') no-repeat;
+    background-size: 200%;
+    background-position: 44% 46%;
+    background-attachment: inherit;
+}
+
+.content-container-2 /* NAD */ {
+    display: inline-block;
+    position: relative;
+    height: 450px;
+    width: 84%;
+    margin-top: 0px;
+    margin-left: 8%;
+    margin-bottom: 30px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://imgur.com/qG0riKU.png') no-repeat;
+    background-size: 100%;
+    background-position: 30% 30%;
+    background-attachment: inherit;
+}
+
+.content-container-3 /* myGP */ {
+    display: inline-block;
+    position: relative;
+    height: 450px;
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 30px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('https://imgur.com/x4kE21C.png') no-repeat center;
+    background-size: 100%;
+    background-position: 50% 85%;
+    background-attachment: inherit;
+}
+
+.content-container-wide-2 /* Stagger */ {
+    display: block;
+    height: 450px;
+    width: 84%;
+    margin-top: 0px;
+    margin-left: 8%;
+    margin-bottom: 100px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 5px;
+    background:url('file:///Users/josh/Desktop/jay-tay.github.io-margin/images/stagger-main.png') no-repeat center;
+    
+    background-size: 230%;
+    background-position: 50% 48%;
+    background-attachment: inherit;
+    
+}
+
+.content-text {
+    position: absolute;
+    margin-top: 310px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.text-wide {
+    position: absolute;
+    margin-top: 310px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.about-text {
+    letter-spacing: 0px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    width: 70%;
+}
+
+.profile-picture {
+    float: right;
+    margin-left: 5%;
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.project-body {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10px;
+}
+
+.subtext-body {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10px;
+}
+
+.project-title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 8%;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.primary-image {
+    height: 84%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+.intro-title {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    letter-spacing: 0px;
+    line-height: 22px;
+    margin-top: 0px;
+    margin-bottom: 0x;
+    font-weight: 400;
+}
+
+.intro-info {
+    display: inline-block;
+    width: 80%;
+    letter-spacing: 0px;
+    line-height: 22px;
+    margin-top: 0px;
+    margin-bottom: 0x;
+    color:rgba(0,0,0,0.7);
+}
+
+.project-left {
+    height: 2000px;
+    width: 45%;
+    float: left;
+    margin-right: 10px;
+    color:rgba(0,0,0,0.7);
+}
+
+.project-text {
+    letter-spacing: 0px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.project-right {
+    height: 650px;
+    width: 270px;
+    float: right;
+}
+
+.full-margin {
+    display: block;
+    width: 20px;
+    height: 60px;
+    margin: 5px;
+}
+
+#prototype-link {
+    display: none;
+}
+
+#healthcare-embed {
+    width: 161.29%;
+    height: 161.29%;
+    -ms-zoom: 0.62;
+    -moz-transform: scale(0.62);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.62);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.62);
+    -webkit-transform-origin: 0 0;
+}
+
+.education-date {
+    display: block;
+    width: 20%;
+    font-weight: bold;
+    font-weight: 400;
+    float: left;
+}
