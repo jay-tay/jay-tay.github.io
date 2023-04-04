@@ -202,6 +202,10 @@ html {
     color:rgba(0,0,0,0.7);
 }
 
+.margin {
+    height: 6px;
+}
+
 .project-left {
     height: 2000px;
     width: 45%;
