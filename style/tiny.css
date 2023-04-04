@@ -13,7 +13,7 @@ html {
 
 .header {
     background: rgba(255, 255, 255, 1);
-    height: 130px;
+    height: 90px;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -36,6 +36,7 @@ html {
     position: absolute;
     top: 100%;
     left: 0;
+    padding-top: 40px;
     padding-bottom: 1334px;
     background: rgba(255, 255, 255, 1);
     transform: scale(1, 0);
@@ -165,89 +166,180 @@ html {
 }
 
 .intro-text {
+    font-size: 22px;
     margin-top: 10px;
     letter-spacing: 0px;
-    line-height: 26px;
+    line-height: 135%;
 }
 
-.content-container-wide /* Energy App */ {
-    display: block;
-    position: relative;
-    height: 300px;
-    width: 84%;
-    margin-left: 8%;
-    margin-bottom: 40px;
-    background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://raw.githubusercontent.com/jay-tay/jay-tay.github.io/master/images/main-mobile.png') no-repeat center;
-
-    background-size: 165%;
-    background-position: 50% 48%;
-    background-attachment: inherit;
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: #fff;
 }
 
-.content-container-1 /* Pulse */ {
+.content-container-1 /* CER */ {
     display: inline-block;
     position: relative;
-    height: 300px;
+    height: 315px;
     width: 84%;
-    margin-top: 0px;
     margin-left: 8%;
-    margin-bottom: 35px;
-    margin-right: 8%;
+    margin-right: 0%;
     background-color: rgb(235, 222, 219);
-    border-radius: 5px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    background:url('https://github.com/jay-tay/jay-tay.github.io/blob/master/images/cer.png?raw=true') no-repeat;
+    background-size: 126%;
+    background-position: 50% 50%;
+    background-attachment: inherit;
+
+    transition: all .2s ease-in-out;
+}
+
+.content-container-1:hover {
+    transform: scale(1.02);
+}
+
+.content-container-2 /* Pulse */ {
+    display: inline-block;
+    position: relative;
+    height: 315px;
+    width: 84%;
+    margin-top: 30px;
+    margin-left: 8%;
+    margin-right: 0%;
+    background-color: rgb(110, 110, 110);
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
     background:url('https://imgur.com/QrURPmI.png') no-repeat;
-    background-size: 240%;
-    background-position: 45% 46%;
+    background-size: 212%;
+    background-position: 46% 34%;
     background-attachment: inherit;
+
+    transition: all .2s ease-in-out;
 }
 
-.content-container-2 /* NAD */ {
+.content-container-2:hover {
+    transform: scale(1.02);
+}
+
+.content-container-3 /* NAD Remote */ {
     display: inline-block;
     position: relative;
-    height: 300px;
+    height: 315px;
     width: 84%;
+    margin-top: 30px;
     margin-left: 8%;
-    margin-bottom: 35px;
-    margin-right: 8%;
+    margin-right: 1%;
     background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://imgur.com/qG0riKU.png') no-repeat;
-    background-size: 150%;
-    background-position: 45% 40%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    background:url('https://imgur.com/qG0riKU.png') no-repeat center;
+    background-size: cover;
+    background-position: 56% 50%;
     background-attachment: inherit;
+
+    transition: all .2s ease-in-out;
 }
 
-.content-container-3 /* myGP */ {
+.content-container-3:hover {
+    transform: scale(1.02);
+}
+
+.content-container-4 /* Personr */ {
     display: inline-block;
     position: relative;
-    height: 300px;
+    height: 315px;
     width: 84%;
+    margin-top: 30px;
     margin-left: 8%;
-    margin-bottom: 35px;
-    margin-right: 8%;
+    margin-right: 0%;
     background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://imgur.com/x4kE21C.png') no-repeat center;
-    background-size: 130%;
-    background-position: 45% 70%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    background:url('https://github.com/jay-tay/jay-tay.github.io/blob/master/images/personr.png?raw=true') no-repeat center;
+    background-size: 120%;
+    background-position: 50% 50%;
+    background-attachment: inherit;
+
+    transition: all .2s ease-in-out;
 }
 
-.content-container-wide-2 /* Stagger */ {
-    display: block;
+.content-container-4:hover {
+    transform: scale(1.02);
+}
+
+.content-container-5 /* Energy App */ {
+    display: inline-block;
     position: relative;
-    height: 300px;
+    height: 315px;
     width: 84%;
+    margin-top: 30px;
     margin-left: 8%;
-    margin-bottom: 100px;
+    margin-right: 1%;
     background-color: rgb(235, 222, 219);
-    border-radius: 5px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    background:url('https://joshtaylor.uk/images/energy-app-collection.png') no-repeat;
+    background-size: cover;
+    background-position: 41% 26%;
+    background-attachment: inherit;
+
+    transition: all .2s ease-in-out;
+}
+
+.content-container-5:hover {
+    transform: scale(1.02);
+}
+
+.content-container-6 /* Stagger */ {
+    display: inline-block;
+    position: relative;
+    height: 315px;
+    width: 84%;
+    margin-top: 30px;
+    margin-left: 8%;
+    margin-right: 0%;
+    margin-bottom: 80px;
+    background-color: rgb(235, 222, 219);
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
     background:url('https://raw.githubusercontent.com/jay-tay/jay-tay.github.io/master/images/stagger-main.png') no-repeat center;
-
-    background-size: 230%;
-    background-position: 50% 48%;
+    background-size: 500%;
+    background-position: 44% 50%;
     background-attachment: inherit;
+
+    transition: all .2s ease-in-out;
+}
+
+.content-container-6:hover {
+    transform: scale(1.02);
 }
 
 .content-text {
@@ -291,10 +383,30 @@ html {
 
 .profile-picture-mobile {
     display: block;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-bottom: 40px;
-    width: 84%;
+    background:url('https://github.com/jay-tay/jay-tay.github.io/blob/master/images/profile19.png?raw=true') no-repeat center;
+    background-size: 114%;
+    background-position: 50% 14%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 132px;
+    height: 500px;
+    width: 100%;
+}
+
+.margin {
+    height: 6px;
+}
+
+.intro-margin-about {
+    margin-top: 40px;
+}
+
+.bottom-margin-about {
+    height: 60px;
 }
 
 .cv {
@@ -408,12 +520,18 @@ strong {
 }
 
 .project-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
     color: #000;
     margin-left: 8%;
-    margin-top: 140px;
-    margin-bottom: 20px;
+    margin-top: 120px;
+    margin-bottom: 24px;
+}
+
+.container {
+    display: block;    
+    width: 80px;
+    margin-right: 30px;
 }
 
 .project-intro {
@@ -449,7 +567,7 @@ strong {
     margin-top: 0px;
     margin-bottom: 15px;
     margin-right: 20%;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .intro-info {

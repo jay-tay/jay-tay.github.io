@@ -3,7 +3,7 @@ body {
     background-color: #fff;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
 
 html {
@@ -35,7 +35,7 @@ html {
 .nav-menu li {
     display: inline-block;
     font-size: 15px;
-    margin-left: 4%;
+    margin-left: 6%;
     text-transform: uppercase;
 }
 
@@ -51,85 +51,45 @@ html {
     display: none;
 }
 
-.content-container-wide /* Energy App */ {
-    display: block;
-    height: 450px;
-    width: 84%;
-    margin-left: 8%;
-    margin-bottom: 32px;
-    background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://raw.githubusercontent.com/jay-tay/jay-tay.github.io/master/images/main-mobile.png') no-repeat center;
-    
-    background-size: 120%;
-    background-position: 50% 48%;
-    background-attachment: inherit;
-    
-}
-
-.content-container-1 /* Pulse */ {
+.content-container-1 /* CER */ {
     display: inline-block;
     position: relative;
-    height: 450px;
-    width: 84%;
-    margin-top: 0px;
+    height: 600px;
+    width: 41%;
     margin-left: 8%;
-    margin-right: 3%;
-    margin-bottom: 30px;
+    margin-right: 1%;
     background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://imgur.com/QrURPmI.png') no-repeat;
-    background-size: 200%;
-    background-position: 44% 46%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    background:url('https://github.com/jay-tay/jay-tay.github.io/blob/master/images/cer.png?raw=true') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
     background-attachment: inherit;
+
+    transition: all .2s ease-in-out;
 }
 
-.content-container-2 /* NAD */ {
+.content-container-4 /* Personr */ {
     display: inline-block;
     position: relative;
-    height: 450px;
-    width: 84%;
-    margin-top: 0px;
-    margin-left: 8%;
-    margin-bottom: 30px;
-    background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://imgur.com/qG0riKU.png') no-repeat;
-    background-size: 100%;
-    background-position: 30% 30%;
+    height: 600px;
+    width: 41%;
+    margin-left: 1%;
+    margin-right: 8%;
+    background-color: rgb(110, 110, 110);
+    border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background:url('https://github.com/jay-tay/jay-tay.github.io/blob/master/images/personr.png?raw=true') no-repeat center;
+    background-size: cover;
+    background-position: 50% 50%;
     background-attachment: inherit;
-}
 
-.content-container-3 /* myGP */ {
-    display: inline-block;
-    position: relative;
-    height: 450px;
-    width: 84%;
-    margin-left: 8%;
-    margin-bottom: 30px;
-    background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://imgur.com/x4kE21C.png') no-repeat center;
-    background-size: 100%;
-    background-position: 50% 85%;
-    background-attachment: inherit;
-}
-
-.content-container-wide-2 /* Stagger */ {
-    display: block;
-    height: 450px;
-    width: 84%;
-    margin-top: 0px;
-    margin-left: 8%;
-    margin-bottom: 100px;
-    background-color: rgb(235, 222, 219);
-    border-radius: 5px;
-    background:url('https://raw.githubusercontent.com/jay-tay/jay-tay.github.io/master/images/stagger-main.png') no-repeat center;
-    
-    background-size: 230%;
-    background-position: 50% 48%;
-    background-attachment: inherit;
-    
+    transition: all .2s ease-in-out;
 }
 
 .content-text {
@@ -159,15 +119,16 @@ html {
     line-height: 22px;
     margin-top: 20px;
     margin-bottom: 18px;
-    width: 70%;
+    width: 100%;
 }
 
 .profile-picture {
-    float: right;
-    margin-left: 5%;
-    height: 180px;
-    width: 180px;
-    border-radius: 5px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 400px;
+    height: 550px;
+    width: 330px;
+    border-radius: 8px;
 }
 
 .project-body {
@@ -183,12 +144,18 @@ html {
 }
 
 .project-title {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 400;
     color: #000;
     margin-left: 8%;
-    margin-top: 35px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.container {
+    display: block;    
+    width: 80px;
+    margin-right: 40px;
 }
 
 .primary-image {
@@ -197,7 +164,15 @@ html {
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 100px;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+.intro-text {
+    line-height: 125%;
+    letter-spacing: -2.5px;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .intro-title {
@@ -208,7 +183,7 @@ html {
     line-height: 22px;
     margin-top: 0px;
     margin-bottom: 0x;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .intro-info {
@@ -263,12 +238,4 @@ html {
     -o-transform-origin: 0 0;
     -webkit-transform: scale(0.62);
     -webkit-transform-origin: 0 0;
-}
-
-.education-date {
-    display: block;
-    width: 20%;
-    font-weight: bold;
-    font-weight: 400;
-    float: left;
 }
