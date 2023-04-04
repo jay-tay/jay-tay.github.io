@@ -175,6 +175,12 @@ html {
     text-transform: uppercase;
 }
 
+.asterisk {
+    height: 30px;
+    width: 30px;
+    margin-right: 6px;
+}
+
 .intro-title {
     display: inline-block;
     vertical-align: top;

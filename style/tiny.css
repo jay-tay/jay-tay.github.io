@@ -165,6 +165,17 @@ html {
     margin-top: 125px;
 }
 
+.asterisk {
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+}
+
+.asterisk-sm {
+    height: 15px;
+    width: 15px;
+}
+
 .intro-text {
     font-size: 22px;
     margin-top: 10px;

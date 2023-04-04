@@ -357,6 +357,14 @@ html {
     font-weight: 500;
 }
 
+.asterisk {
+    margin-right: 8px;
+}
+
+.asterisk-sm {
+    margin-right: 0px;
+}
+
 .intro-text a {
     color: #3296d8;
     line-height: 26px;
