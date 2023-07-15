@@ -395,8 +395,8 @@ html {
 .profile-picture-mobile {
     display: block;
     background:url('https://github.com/jay-tay/jay-tay.github.io/blob/master/images/PP23F.png?raw=true') no-repeat center;
-    background-size: 114%;
-    background-position: 50% 14%;
+    background-size: 100%;
+    background-position: 50% 5%;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     border: 0;
